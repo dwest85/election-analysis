@@ -21,17 +21,17 @@ I used the raw elction results of a recent election to complete the following ta
 
 # Summary
 1. election_analysis.txt results:
-    2. There were 369,711 total votes cast.
-    3. The candidates were:
-            -Charles Casper Stockham
-            -Diana DeGette
-            -Raymon Anthony Doane
-    4. The candidates results based on the votes:
-            -Charles Casper Stockham received 85,213 votes which made up 23.0% of the total votes.
-            -Diana DeGette received 272,892 votes which made up 73.8% of the total votes.
-            -Raymon Anthony Doane received 11,606 votes which made up 3.1% of the total votes.
-    5. The winner based on the votes:
-            -Diana DeGette won the election with 73.8% of the overall votes.
+2. There were 369,711 total votes cast.
+3. The candidates were:
+    -Charles Casper Stockham
+    -Diana DeGette
+    -Raymon Anthony Doane
+4. The candidates results based on the votes:
+    -Charles Casper Stockham received 85,213 votes which made up 23.0% of the total votes.
+    -Diana DeGette received 272,892 votes which made up 73.8% of the total votes.
+    -Raymon Anthony Doane received 11,606 votes which made up 3.1% of the total votes.
+5. The winner based on the votes:
+    -Diana DeGette won the election with 73.8% of the overall votes.
 
 # Challenge Overview
     1. Iterating through the raw data to assign unique candidates in the candidate_options list.
