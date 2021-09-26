@@ -24,17 +24,17 @@ I used the raw elction results of a recent Colorado-based election to complete t
 # Election-Audit Results
 * There were 369,711 total votes cast. The votes were iterated through and pulled from election_results.csv based on:
 Candidate vote and County where the vote was placed.
-![votescast]()
+![votescast](https://github.com/dwest85/election-analysis/blob/main/markdownpics/votescast.JPG)
 * Based on the county results: Denver had the most votes placed with 82.8%, second was Jefferson with 10.5%, and lastly Arapahoe with 6.7%. 
 These results were brokedown from the following algorithm with iterating the data through the election_results.csv source.
-![countyvotesbreakdown]()
+![countyvotesbreakdown](https://github.com/dwest85/election-analysis/blob/main/markdownpics/countyvotesbreakdown.JPG)
 * Denver had the largest number of votes: 306,055 (82.8%). The following code below was used to determine the largest amount of votes by county.
-![largestcountyvote]()
+![largestcountyvote](https://github.com/dwest85/election-analysis/blob/main/markdownpics/largestcountyvote.JPG)
 * The votes were compiled into an empty dictionary with the keys being the candidates. That data was then passed into the following algorithm to 
 to find each candidate's number of votes and the percentage of those votes.
-![candidatevotebreakdown]() 
+![candidatevotebreakdown](https://github.com/dwest85/election-analysis/blob/main/markdownpics/candidatevotebreakdown.JPG) 
 * Diana Degette won the election with 73.8% of the votes (272,892). The following code below explains the process of finding the winner and printing those results.
-![winnerbreakdwon]()
+![winnerbreakdwon](https://github.com/dwest85/election-analysis/blob/main/markdownpics/winnerbreakdown.JPG)
 
 
 # General Summary
