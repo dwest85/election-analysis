@@ -1,13 +1,15 @@
 # election-analysis
 
 # Project Overview
-I used the raw elction results of a recent election to complete the following tasks:
+I used the raw elction results of a recent Colorado-based election to complete the following tasks:
 
 1. Calculate the total number of votes cast in the election.
 2. Compiled a list of candidates.
 3. Calculated the total number and percentage of votes each candidate received.
 4. Determined the winner based on the voting results.
-5. Wrote the results to the election_analysis.txt file.
+5. Iterate through the voting results to seperate county votes.
+6. Discover the largest voting county based on the results.
+7. Wrote the results to the election_analysis.txt file.
 
 # Data used/ Software/ Resources and Analysis Folders 
 1. Data Source (Resoucres): election_results.csv
@@ -19,7 +21,23 @@ I used the raw elction results of a recent election to complete the following ta
 4. Modules:
     CSV and OS
 
-# Summary
+# Election-Audit Results
+* There were 369,711 total votes cast. The votes were iterated through and pulled from election_results.csv based on:
+Candidate vote and County where the vote was placed.
+![votescast]()
+* Based on the county results: Denver had the most votes placed with 82.8%, second was Jefferson with 10.5%, and lastly Arapahoe with 6.7%. 
+These results were brokedown from the following algorithm with iterating the data through the election_results.csv source.
+![countyvotesbreakdown]()
+* Denver had the largest number of votes: 306,055 (82.8%). The following code below was used to determine the largest amount of votes by county.
+![largestcountyvote]()
+* The votes were compiled into an empty dictionary with the keys being the candidates. That data was then passed into the following algorithm to 
+to find each candidate's number of votes and the percentage of those votes.
+![candidatevotebreakdown]() 
+* Diana Degette won the election with 73.8% of the votes (272,892). The following code below explains the process of finding the winner and printing those results.
+![winnerbreakdwon]()
+
+
+# General Summary
 1. election_analysis.txt results:
 2. There were 369,711 total votes cast.
 3. The candidates were:
@@ -39,6 +57,10 @@ I used the raw elction results of a recent election to complete the following ta
     3. Tallying the final results into a readable percentage, using the .1f% decimal output.
     4. Writing the necessary information to the election_analysis.txt file.
     5. Making sure all variable, for loops, and if-statements were properly indented to ensure proper execution of the code.
+
+
+# Election-Audit Summary
+Overall, the script created for this election can be modified for any future elections by changing the variables used and the destination of where the values are being pulled from (raw data). Some examples of using this script for future use would be: Voting on proposal plans based on all counties, or it could be modified to even poll votes for social events in those counties.  
 
 
 
