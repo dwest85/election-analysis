@@ -29,6 +29,7 @@ Candidate vote and County where the vote was placed.
 These results were brokedown from the following algorithm with iterating the data through the election_results.csv source.
 ![countyvotesbreakdown](https://github.com/dwest85/election-analysis/blob/main/markdownpics/countyvotesbreakdown.JPG)
 * Denver had the largest number of votes: 306,055 (82.8%). The following code below was used to determine the largest amount of votes by county.
+
 ![largestcountyvote](https://github.com/dwest85/election-analysis/blob/main/markdownpics/largestcountyvote.JPG)
 * The votes were compiled into an empty dictionary with the keys being the candidates. That data was then passed into the following algorithm to 
 to find each candidate's number of votes and the percentage of those votes.
